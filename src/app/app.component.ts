@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hello-world';
+
+  public name = "Simplilearn"
+  public topic = "Data Binding"
+
+  public value =""
+
+  public image = "/assets/Logo.png"
+
+  onClick(){
+    console.log("Thank you for subscribing")
+  }
 }
